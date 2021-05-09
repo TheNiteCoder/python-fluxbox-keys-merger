@@ -24,7 +24,7 @@ def parse(filename):
         lines = f.readlines()
     comments = []
     for line in lines:
-        print('Comments: ' + repr(comments))
+        #  print('Comments: ' + repr(comments))
         line = line.strip()
         if line.startswith('#') or line.startswith('!') or line.startswith('-'):
             comments.append(line)
