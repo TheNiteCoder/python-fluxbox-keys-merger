@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Nite Coder, coderofthenite@gmail.com, https://github.com/TheNiteCoder/python-fluxbox-keys-merger
+# Licence: GPL-3.0
 
 import os
 from argparse import ArgumentParser
